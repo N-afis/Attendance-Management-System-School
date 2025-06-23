@@ -59,7 +59,7 @@ $img_profile = $_SESSION['img_path'];
             <div>
                 <!-- Logo Section -->
                 <a href="<?php echo BASE_URL; ?>/pages/dashboard.php" class="nav_logo">
-                    <img src="../assets/images/logoCMC.png" alt="logo">
+                    <img src="../assets/images/logoSchool.png" alt="logo">
                     <span class="nav_logo-name">CMC TTA</span>
                 </a>
 
