@@ -7,11 +7,13 @@
 
 A comprehensive full-stack attendance management system designed for educational institutions. Built with modern web technologies including PHP (OOP & PDO), MySQL, JavaScript, and Bootstrap for a responsive and intuitive user experience.
 
-![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20174953.png)
-![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20175002.png)
-![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20175007.png)
-![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20175014.png)
-![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20175023.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20175029.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191014.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191026.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191038.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191047.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191053.png)
+![Attendance System Dashboard](assets/images/Screenshot%202025-06-23%20191100.png)
 
 ## ✨ Features
 
