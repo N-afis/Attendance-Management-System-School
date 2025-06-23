@@ -1,0 +1,105 @@
+.imgPro {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.imgPro:hover {
+  opacity: 0.3;
+  /* The hover image will need to be in a parent element's background */
+}
+
+.profile-image-container {
+  background-image: url(../../assets/images/hoverPro2.png);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.img-list {
+  display: block;
+  opacity: 0;
+  border-radius: 10px;
+  background: linear-gradient(to top left, #2b9cb8, #6fc5e0);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-out;
+  pointer-events: none;
+}
+
+#imgList.activer {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+.img-list span,
+label {
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.img-list span:hover {
+  background-color: rgba(255, 255, 255, 0.178);
+}
+.img-list label:hover {
+  background-color: rgba(255, 255, 255, 0.178);
+}
+
+.imgUpl {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0;
+  width: 400px;
+}
+
+.saveBtn {
+  background-color: transparent;
+  color: #2b9cb8;
+  border-radius: 100px;
+  border: 1px solid #2b9cb8;
+  padding: 5px 8px;
+  outline: none;
+  transition: all 0.2s;
+}
+.saveBtn:hover {
+  background-color: #2b9cb8;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+  .imgPro {
+    width: 100px;
+    height: 100px;
+  }
+  .imgUpl {
+    width: 100px;
+    height: 100px;
+  }
+
+  hr {
+    width: 300px;
+  }
+
+  .img-list {
+    font-size: 14px;
+  }
+
+  .profile-image-container {
+    width: 100px;
+    height: 100px;
+  }
+}

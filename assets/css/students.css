@@ -1,0 +1,138 @@
+.editbtn{
+    background-color: transparent;
+    border: 1px solid #d2d2d8;
+    color: #2B9CB8;
+    border-radius: 5px ;
+    outline: none;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+.editbtn:hover{
+    background-color: #cae5ec
+}
+
+.deletebtn{
+    background-color: transparent;
+    border: 1px solid #d2d2d8;
+    color: red;
+    border-radius: 5px ;
+    outline: none;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+.deletebtn:hover{
+    background-color: #fcc9c9
+}
+
+.bg-main{
+    background-color: #2B9CB8;
+}
+
+.addBtn{
+    background-color: #2B9CB8;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    transition: all 0.2s;
+}
+.addBtn:hover{
+    background-color: #0386a7;
+}
+
+.uploadBtn{
+    background-color: #31975f;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.uploadBtn:hover{
+    background-color: #35865a;
+}
+
+/*============ Modal background ==============*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 550px;
+  position: relative;
+}
+
+/* Close (X) button */
+.close,.close2 {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.close,.close2:hover{
+  color: red;
+}
+
+/* Form styling
+.modal-content input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+} */
+
+.modal-actions {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.submitbtn,.modifyBtn{
+    background-color: #2B9CB8;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 9px 12px;
+    outline: none;
+    transition: all 0.2s;
+}
+.submitbtn,.modifyBtn:hover{
+    background-color: #0386a7;
+}
+
+.cancelBtn{
+    background-color: transparent;
+    color: #f13434;
+    border-radius: 7px;
+    border: 1px solid #f13434;
+    padding: 9px 12px;
+    outline: none;
+    transition: all 0.2s;
+}
+.cancelBtn:hover{
+    background-color: #f13434;
+    color: white;
+}
+
