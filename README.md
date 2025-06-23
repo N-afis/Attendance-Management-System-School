@@ -48,15 +48,15 @@ A comprehensive full-stack attendance management system designed for educational
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Sa3d-Ka/Attendance-Management-System.git
-   cd Attendance-Management-System
+   git clone https://github.com/Sa3d-Ka/Attendance-Management-System-School.git
+   cd Attendance-Management-System-School
    ```
 
 2. **Database Setup**
-   - Create a new MySQL database (e.g., `attendance_db`)
+   - Create a new MySQL database (e.g., `attendancedb`)
    - Import the SQL schema:
      ```bash
-     mysql -u your_username -p attendance_db < database/attendance_system.sql
+     mysql -u your_username -p attendancedb < database/attendance_system.sql
      ```
 
 3. **Environment Configuration**
@@ -67,7 +67,7 @@ A comprehensive full-stack attendance management system designed for educational
    - Update `.env` with your database credentials:
      ```env
      DB_HOST=localhost
-     DB_NAME=attendance_db
+     DB_NAME=attendancedb
      DB_USER=your_username
      DB_PASS=your_password
      ```
@@ -82,13 +82,13 @@ A comprehensive full-stack attendance management system designed for educational
 
 5. **Launch the Application**
    - For XAMPP: Place in `htdocs` folder
-   - Access via: `http://localhost/Attendance-Management-System/`
+   - Access via: `http://localhost/Attendance-Management-System-School/`
    - Default login: Check `database/attendance_system.sql` for default credentials
 
 ## 📁 Project Structure
 
 ```
-Attendance-Management-System/
+Attendance-Management-System-School/
 ├── 📄 index.php                 # Main entry point
 ├── 🔐 login.php                 # Authentication page
 ├── 🚪 logout.php                # Session termination
@@ -157,7 +157,6 @@ Attendance-Management-System/
 ### Tools & Libraries
 - **Font Awesome** - Icon library
 - **Chart.js** - Data visualization
-- **SweetAlert2** - Enhanced alerts
 - **DataTables** - Advanced table functionality
 
 ## 🔧 Configuration
@@ -175,7 +174,7 @@ class Database {
     
     public function __construct() {
         $this->host = $_ENV['DB_HOST'] ?? 'localhost';
-        $this->db_name = $_ENV['DB_NAME'] ?? 'attendance_db';
+        $this->db_name = $_ENV['DB_NAME'] ?? 'attendancedb';
         $this->username = $_ENV['DB_USER'] ?? 'root';
         $this->password = $_ENV['DB_PASS'] ?? '';
     }
@@ -190,15 +189,9 @@ Configure your `.env` file:
 ```env
 # Database Configuration
 DB_HOST=localhost
-DB_NAME=attendance_db
+DB_NAME=attendancedb
 DB_USER=root
 DB_PASS=
-
-# Application Settings
-APP_ENV=development
-APP_DEBUG=true
-UPLOAD_MAX_SIZE=5242880
-SESSION_TIMEOUT=3600
 ```
 
 ## 🤝 Contributing
@@ -225,19 +218,12 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **Bootstrap Team** - For the amazing CSS framework
-- **PHP Community** - For continuous language improvements
-- **MySQL Team** - For robust database management
-- **Open Source Community** - For inspiration and resources
-
 ## 👨‍💻 Author
 
 **Saad Kanani** 🇲🇦
-- GitHub: [@Sa3d-Ka](https://github.com/Sa3d-Ka)
+- Instagram: [@learntodev.ka](https://www.instagram.com/learntodev.ka/)
 - LinkedIn: [Saad Kanani](https://linkedin.com/in/saad-kanani)
-- Email: saadkanani.dev@gmail.com
+- Email: saad.kanani.off@gmail.com
 
 ---
 
