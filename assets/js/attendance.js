@@ -345,6 +345,7 @@ document.getElementById("submitStudent").addEventListener("click", () => {
     .then((data) => {
       if (data.success) {
         showToast(data.message, "bg-primary");
+        resetSelectsToPresent(studentCon); // Reset selects to "present" after submission
       } else {
         showToast(data.message, "bg-danger");
       }
@@ -417,8 +418,6 @@ document.getElementById("submitTeacher").addEventListener("click", () => {
     }
   });
 
-  console.log(absentTeachers);
-
   fetch("../api/attendance/mark_teachers_attendance.php", {
     method: "POST",
     headers: {
@@ -432,6 +431,7 @@ document.getElementById("submitTeacher").addEventListener("click", () => {
     .then((data) => {
       if (data.success) {
         showToast(data.message, "bg-primary");
+        resetSelectsToPresent(teacherCard); // Reset selects to "present" after submission 
       } else {
         showToast(data.message, "bg-danger");
       }
@@ -441,3 +441,12 @@ document.getElementById("submitTeacher").addEventListener("click", () => {
       showToast("Something went wrong", "bg-danger");
     });
 });
+
+// ============================== Reset Selects To Present ==============================
+
+function resetSelectsToPresent(card) {
+  const selects = card.querySelectorAll('.form-select');
+  selects.forEach(select => {
+    select.value = "present";
+  });
+}
