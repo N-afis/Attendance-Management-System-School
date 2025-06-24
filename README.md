@@ -89,16 +89,12 @@ A comprehensive full-stack attendance management system designed for educational
    - Access via: `http://localhost/Attendance-Management-System-School/`
    - Default login: Check `database/attendance_system.sql` for default credentials
 
----
-
 6. **Admin Login Credentials**
 
 Use the following credentials to log in as an admin:
 
 - **Email:** `admin1@cmc.ma`  
 - **Password:** `admin123`
-
----
 
 ## 📁 Project Structure
 
